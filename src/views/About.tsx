@@ -22,7 +22,7 @@ const About = () => {
       id="about"
       className="min-h-screen flex items-center justify-center relative"
       style={{
-        background: `url(${aboutPageImg})`,
+        // background: `url(${aboutPageImg})`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
@@ -38,16 +38,13 @@ const About = () => {
               className="text-center xl:text-start text-4xl sm:text-5xl lg:text-[64px] 
               font-bold text-textPrimary"
             >
-              About <span className="text-secondary"> me</span>
+              About <span className="text-secondary"> TechTenets</span>
             </h2>
           </Reveal>
 
           <Reveal>
-            <p className="text-center xl:text-start text-base sm:text-lg text-textSecondary">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reiciendis incidunt quis praesentium voluptates et cupiditate
-              minus rem. Voluptatibus ullam beatae expedita voluptatum error,
-              voluptate deserunt impedit similique fuga recusandae sit.
+            <p className="text-center xl:text-start text-base sm:text-lg text-black">
+            We are a software company with an interest to bringing Amazing ideas to life, building solutions that positively change the world. With a strong background in computer science and a keen eye for design, I have the skills and experience necessary to turn complex project requirements into functional, high-quality digital products. I am skilled in a variety of programming languages and frameworks, and I'm comfortable working with both front-end and back-end development. I have worked on a variety of projects, ranging from small business websites to large custom web applications. With over 4 years of proven industry experience, having me in your team will be a step in the right direction and I can't wait to amaze you. Outside of work, I enjoy staying up-to-date with the latest trends and techniques in web development and software engineering, and I'm always looking forward to new challenges and opportunities to grow my skillset. I am also a strong believer in the power of collaboration, and enjoy working with a team to create innovative and impactful projects.
             </p>
           </Reveal>
 

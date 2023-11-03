@@ -32,7 +32,32 @@ const Hero = () => {
         className="max-w-screen-2xl flex flex-col 
           xl:flex-row xl:justify-between items-center xl:items-start gap-12 w-full py-16 px-12"
       >
-        <div className="w-full xl:w-fit">
+
+        <div className="w-full">
+        <motion.h1
+            variants={fadeIn("down")}
+            transition={transition()}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false }}
+            className="w-full xl:w-fit text-center xl:text-start text-4xl sm:text-6xl lg:text-8xl
+              font-bolt text-textPrimary uppercase"
+          >
+            Building Scalable Software Solutions for 
+            <br />
+            <span className="text-secondary">
+              <Typewriter
+                words={["Homes", "Individuals", "B"]}
+                cursor
+                cursorStyle="_"
+                typeSpeed={250}
+                deleteSpeed={150}
+                // loop={false}
+              />
+            </span>
+          </motion.h1>
+        </div>
+        {/* <div className="w-full xl:w-fit">
           <motion.h1
             variants={fadeIn("down")}
             transition={transition()}
@@ -42,7 +67,7 @@ const Hero = () => {
             className="w-full xl:w-fit text-center xl:text-start text-4xl sm:text-6xl lg:text-8xl
               font-bolt text-textPrimary uppercase"
           >
-            Creative
+Hi there,
             <br />
             <span className="text-secondary">
               <Typewriter
@@ -66,7 +91,7 @@ const Hero = () => {
             <Button secondary>Hire me</Button>
             <Button icon={downloadIcon}>Download CV</Button>
           </motion.div>
-        </div>
+        </div> */}
 
         <motion.img
           variants={scale()}

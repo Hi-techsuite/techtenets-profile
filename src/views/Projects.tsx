@@ -33,9 +33,9 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="min-h-screen relative"
+      className="min-h-screen relative bg-primary"
       style={{
-        background: `url(${projectsPageImg})`,
+        // background: `url(${projectsPageImg})`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
@@ -48,7 +48,7 @@ const Projects = () => {
               className="text-center xl:text-start text-4xl sm:text-5xl lg:text-[64px] 
               font-bold text-textPrimary"
             >
-              My recent <span className="text-secondary"> projects</span>
+              Our recent <span className="text-secondary"> projects</span>
             </h2>
           </Reveal>
 
